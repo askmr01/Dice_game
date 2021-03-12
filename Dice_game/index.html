@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap links-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <!-- CSS stylesheet-->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Fontawesome link -->
+        <script src="https://kit.fontawesome.com/b2300757c0.js" crossorigin="anonymous"></script>
+
+        <title>Pig Game</title>
+    </head>
+    <body>
+        <div class="player-0 active">
+            <h1>PLAYER 1</h1>
+            <h1 class="total-sc">0</h1>
+            <div class="current">
+                <h3>CURRENT</h3>
+                <h3 class="current-sc">0</h3>
+            </div>
+        </div>
+        <div class="player-1">
+            <h1>PLAYER 2</h1>
+            <h1 class="total-sc">0</h1>
+            <div class="current">
+                <h3>CURRENT</h3>
+                <h3 class="current-sc">0</h3>
+            </div>
+        </div>
+
+        <img src="images/dice-6.png" class="img-fluid hidden" alt="dice-image"/>
+        <button type="button" class="btn btn-danger ng"><i class="fas fa-sync"></i>NEW GAME</button>
+        <button type="button" class="btn btn-danger rd"><i class="fas fa-dice-five"></i>ROLL DICE</button>
+        <button type="button" class="btn btn-danger hold"><i class="fas fa-download"></i>HOLD</button>
+
+        <div class="final-dec hidden">
+            Player wins!
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

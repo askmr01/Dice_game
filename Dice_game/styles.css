@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.player-0{
+    background-color: darksalmon;
+    display: inline-block;
+    opacity: 0.65;
+    position: absolute;
+    top: 10vh;
+    width: 40vw;
+    height: 80vh;
+    left: 10vw;
+    text-align: center;
+    border: 3px solid;
+    border: 3px solid;
+    border-color: rgb(70, 10, 150);
+    border-radius: 20px;
+    border-width: 5px;
+    padding-top: 10vh;
+    color:maroon;
+}
+
+.player-1{
+    background-color: darksalmon;
+    display: inline-block;
+    opacity: 0.65;
+    position: absolute;
+    top: 10vh;
+    width:40vw;
+    height: 80vh;
+    right: 10vw;
+    text-align: center;
+    text-align: center;
+    border: 3px solid;
+    border-color: rgb(70, 10, 150);
+    border-radius: 20px;
+    border-width: 5px;
+    padding-top: 10vh;
+    color: maroon;
+}
+
+.active{
+    opacity: 1.0;
+}
+
+.btn{
+    width: 10vw;
+    left: 45vw;
+    position: absolute;
+    font-size: 1vw;
+}
+
+.ng{
+    top: 22vh;
+}
+
+.rd{
+    top: 50vh;
+}
+
+.hold{
+    top: 62vh;
+}
+
+.current{
+    background-color: darkslateblue;
+    height: 16vh;
+    width: 20vw;
+    border-radius: 20px;
+    position: absolute;
+    padding-top: 2vh;
+    color: yellowgreen;
+    font-weight: 900;
+}
+
+.player-0 .current{
+    top: 40vh;
+    left: 10vw;
+}
+
+.player-1 .current{
+    left: 10vw;
+    top: 40vh;
+}
+
+.fas{
+    margin-right: 0.3vw;
+}
+
+.green{
+    background-color: lime;
+}
+
+.darkgreen{
+    background-color: darkgreen;
+}
+
+.final-dec{
+    background-color: yellow;
+    position: absolute;
+    width: 20vw;
+    /* To align a single line of text in div, we can set line -height to be equal to the height of the container */
+    height: 28vh;
+    line-height: 27vh;
+
+    left: 40vw;
+    top: 70vh;
+    font-family: 'Montserrat', serif;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 900;
+    border: 5px dashed;
+}
+
+.hidden{
+    display: none;
+}
+
+.img-fluid{
+    width: 6vw;
+    position: absolute;
+    left: 47vw;
+    top: 32vh;
+}
